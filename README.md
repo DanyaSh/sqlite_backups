@@ -1,4 +1,4 @@
-# SQLite backup script
+# 🪶SQLite backup script
 This Bash script is designed to automate the backup process of a SQLite database in a project. It allows you to easily copy the database file to a specified directory for backups, with customizable naming conventions.
 
 ## Prerequisites
