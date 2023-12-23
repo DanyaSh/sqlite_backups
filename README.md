@@ -68,7 +68,7 @@ Launch in terminal linux
 input for example (for everyday auto backup your database at 3 am and logging this process)
 
    ```bash
-   0 3 * * * /path/to/your/script/backup_script.sh >> /path/to/your/logs/cron.log 2>&1
+   0 3 * * * /path/to/your/script/back_script.sh >> /path/to/your/logs/cron.log 2>&1
    ```
 
 ### Errors
