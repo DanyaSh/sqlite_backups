@@ -22,7 +22,7 @@ This Bash script is designed to automate the backup process of a SQLite database
 3. Create a `.env` file based on the provided [.env_example](.env_example). Customize the variables according to your project configuration.
 
    ```plaintext
-   CURRENT_DATE=$(date +'%Y%m%d')
+   CURRENT_DATE=$(date +'%Y%m%d_%H%M')
    NAME_DB=my_database
    PROJECT_DB_PATH=/path/to/project/db.sqlite
    BACKUP_DIR=/path/to/backups
