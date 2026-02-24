@@ -5,6 +5,7 @@ This Bash script is designed to automate the backup process of a SQLite database
 
 - Bash (Bourne Again SHell)
 - SQLite database file in your project
+- sqlite3 on your system (sudo apt install sqlite3)
 - `.env` file with configuration variables (see [.env_example](.env_example))
 
 ## Getting Started
